@@ -1,0 +1,17 @@
+- [x] Update models.py: Add body, username, created_at, updated_at columns to Message model
+- [x] Update seed.py: Set created_at and updated_at when creating messages
+- [x] Update app.py: Implement GET /messages route
+- [x] Update app.py: Implement POST /messages route
+- [x] Update app.py: Implement PATCH /messages/<int:id> route
+- [x] Update app.py: Implement DELETE /messages/<int:id> route
+- [x] Update App.js: Change fetch URL to port 5555
+- [x] Update NewMessage.js: Change fetch URL to port 5555
+- [x] Update Message.js: Change fetch URL to port 5555
+- [x] Update EditMessage.js: Change fetch URL to port 5555
+- [ ] Run flask db init in server/
+- [ ] Run flask db migrate in server/
+- [ ] Run flask db upgrade in server/
+- [ ] Run python seed.py in server/
+- [ ] Run pytest -x in server/
+- [ ] Run python app.py in server/
+- [ ] Run npm start in client/
